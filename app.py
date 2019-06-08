@@ -13,7 +13,7 @@ def sms_reply():
     # Fetch the message
     print(request.form)
     msg = request.form.get('Body')
-    sender = request.form.get('from')
+    sender = request.form.get('From')
     # Create reply
     resp = MessagingResponse()
     reply = fetch_reply(msg,sender)
