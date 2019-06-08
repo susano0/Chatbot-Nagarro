@@ -13,7 +13,7 @@ The `get_temp` intent and a python wrapper `pyowm` for  OpenWeatherMap (OWM) are
 The `get_history` intent and MongoDB are used to get the search weather history of a user. Example: type
 'Show me my weather history' chatbot will retrieve the data from the database for that particular user.
 
-The `custom_search` intent and Google Custom Search API are used to fetch results from Quora and GeeksForGeeks and display the top 3 hits. Example: 'Search breaking bad on Quora' or 'shortest path algorithm of gfg', the chatbot will display the title and the URL in 3 separate messages.
+The `custom_search` intent and Google Custom Search API are used to fetch results from Quora, Wikipedia and GeeksForGeeks and display the top 3 hits. Example: 'Search breaking bad on Quora' or 'shortest path algorithm of gfg', the chatbot will display the title and the URL in 3 separate messages.
 
 ## Hosted on Heroku: http://utk-chatbot.herokuapp.com/
 
