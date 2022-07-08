@@ -1,7 +1,5 @@
 # Chatbot-Nagarro
 
-This chatbot was made as an assignment during Nagarro Bootcamp Program(2019).
-
 The chatbot was built mainly with the help of Flask, DialogFlow and Twilio.
 
 It has 4 Dialogflow Intents, namely `get_news`,`get_temp`,`get_history` and `custom_search`.
